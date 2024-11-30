@@ -150,13 +150,18 @@ Base de Datos PostgreSQL: Usa las credenciales definidas en el archivo .env.
 Tabla de reportes: Al ejecutar la aplicación, se asegura de que la tabla reports esté disponible para guardar los datos.
 
 ```sql
-CREATE TABLE reports (
-id SERIAL PRIMARY KEY,
-total_rows INTEGER,
-total_columns INTEGER,
-column_summary TEXT,
-created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+CREATE TABLE compromisos_energia (
+    id SERIAL PRIMARY KEY,
+    anio INT,
+    mes INT,
+    dia INT,
+    CodigoPlanta VARCHAR(50),
+    consolidado_planta FLOAT,
+    Compromisos_MCOP FLOAT,
+    Operacion VARCHAR(50),
+    created_at TIMESTAMP
 );
+
 ```
 
 ---
