@@ -39,10 +39,7 @@ build/
 *.egg-info/
 coverage/
 htmlcov/            
-
-# Archivos relacionados a PDF o reportes
-*.pdf               
-*.zip               
+          
 
 # Archivos relacionados a Docker
 postgres_data/      
