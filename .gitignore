@@ -1,0 +1,48 @@
+# Entornos virtuales de Python
+venv/
+.env                
+*.env
+env/
+.env/
+# Archivos generados de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+.DS_Store
+
+# Configuración de editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Archivos de Docker
+*.env               
+docker-compose.override.yml
+docker-compose*.log
+
+# Archivos temporales o de desarrollo
+*.bak
+*.tmp
+*.temp
+*.swp
+
+# Archivos generados por FastAPI o el servidor
+*.db                
+instance/
+media/              
+
+# Archivos generados por compilaciones
+dist/
+build/
+*.egg-info/
+coverage/
+htmlcov/            
+
+# Archivos relacionados a PDF o reportes
+*.pdf               
+*.zip               
+
+# Archivos relacionados a Docker
+postgres_data/      
